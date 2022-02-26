@@ -1,5 +1,6 @@
 import {FC} from "react";
-import {Box, Divider, Text, VStack} from "@chakra-ui/react";
+import { Stack, HStack} from '@chakra-ui/react'
+import {Box, Button, Divider, Text, VStack} from "@chakra-ui/react";
 import Comment from "./Comment";
 
 interface Props {
@@ -10,7 +11,9 @@ interface Props {
 
 const Post: FC<Props> = ({title, body, postedAt}) => {
     // TODO: Implemnt a Post!
-    return ();
-}
+   return(
+  <Button colorScheme='teal' size='xs'>
+  </Button>);
+   }
 
 export default Post;
